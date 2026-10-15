@@ -1,20 +1,14 @@
 import "./App.css";
-import {Title} from "./Title.jsx";
 import {ProductTab} from "./ProductTab.jsx";
-import MsgBox from "./MsgBox.jsx";
-
-function Description(){
-  return <p>I am the Description</p>
-}
 
 function App() {
+  let styles = {
+    textAlign: "center",
+  }
   return (
     <>
-    <MsgBox userName="Prince" textColor="yelloW"/>
-      <Title />
+    <h2 style={styles}>Blockbuster Deals | Shop Now</h2>
       <ProductTab />
-      <Description/>
-      <button>Hello, World!</button>
     </>
   );
 }
