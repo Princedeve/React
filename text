@@ -1,0 +1,14 @@
+in react import or export functionality is possible by webpack
+react Props - Props are the information that you pass to a JSX tag. if we want to change over product so we can change using props
+react me strict mode jo use karte he hm vo props ko console me twice time print karta he 
+
+react 3 main pillars COMPONENTS, PROPS & STATE
+
+The state is a built-in React object that is used to contain data or information about the component.
+A component's state can change over time; whenever it changes, the component re-renders.
+
+Hooks were a new addition in React 16.8.
+They let you use state and other React features without a class.
+In React have function components for creating components and class components and we can use class component features in function components using & adding hooks for use class components features examples = state and other features
+React 19 releases, there are 20 built-in React hooks provided natively by the library.
+useState is a React Hook that lets you add a state variable to your component.
