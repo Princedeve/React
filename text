@@ -15,3 +15,5 @@ useState is a React Hook that lets you add a state variable to your component.
 Hooks can only called inside of the body of a function component.
 
 Closure: A closure is a feature in JavaScript where an inner function has access to the outer (enclosing) function's variables
+
+Component, Props, State, Events
